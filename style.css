@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* הגדרות צבע למצב בהיר */
+.light {
+    background-color: white;
+    color: black;
+}
+
+/* הגדרות צבע למצב כהה */
+.dark {
+    background-color: #222;
+    color: white;
+}
+.dark a {
+    color: lightblue;
+}
+
+/* עיצוב המסגרת של הכרטיס */
+.card {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* עיצוב הכפתור */
+.button {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
